@@ -9,7 +9,7 @@ h1{
 .color-orange{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
 }
 .half-width{
@@ -47,5 +47,28 @@ section{
 }
 .Dream Big{
     margin-top: 100px;
+    
+}
+
+.experiences{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    width: 40%;
+    border-left: 10px solid red;
+    border-image: linear-gradient(rgb(128, 223, 20), orange);
+    border-image-slice: 2%;
+    
+    
+
+}
+h3{
+    font-size: 40px;
+}
+#gredient-color{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1%;
     
 }
